@@ -1,0 +1,298 @@
+.first_fold {
+    background: none;
+}
+
+.first_fold .distribution h4 {
+    color: #282828;
+    position: relative;
+}
+
+.distribution h4:after {
+    position: absolute;
+    content: "";
+    width: 102px;
+    height: 8px;
+    background: url(../../images/wpl-images/partner-line.html) no-repeat;
+    left: 2px;
+    top: 43px;
+}
+
+.testimonial_section {
+    background: url(../../images/wpl-images/resource/orgi-back.html) no-repeat;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial_section h4 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 800;
+    color: #fff;
+}
+
+.testimonial_section p {
+    color: #fff;
+}
+
+.distribution p {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #fff;
+    font-family: myfont;
+}
+
+.roww {
+    position: absolute;
+    top: 30%;
+}
+
+.roww h5 {
+    font-size: 55px;
+    color: #fff;
+    margin: 0;
+    font-family: myfont2;
+    line-height: 28px;
+    padding: 0 0 10px;
+    margin: 0 0 25px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.distribution .p1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.distribution h5 {
+    font-size: 35px;
+    font-weight: 100;
+    color: #22bed9;
+    margin-bottom: 0px;
+    font-family: myfont;
+}
+
+.distribution .content {
+    background: url(../../images/wpl-images/publish/second-content-bg.png) no-repeat;
+    padding: 32px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.distribution .content:after {
+    content: "";
+    background: url(../../images/wpl-images/disti.html) no-repeat;
+    background-size: contain;
+    width: 178px;
+    height: 365px;
+    top: 32px;
+    position: absolute;
+    right: -47px;
+}
+
+.distribution h5 span {
+    color: #fff;
+    font-weight: 900;
+}
+
+.distribution img {
+    width: 100%;
+}
+
+.content-last {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content-last h4 {
+    color: #1d1d1d;
+    position: relative;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: myfont;
+}
+
+.content-last h4:after {
+    content: "";
+    background-color: #1d1d1d;
+    width: 15%;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 38%;
+}
+
+.content-last h4 span {
+    font-weight: 100;
+}
+
+.content-last p {
+    font-size: 17px;
+    font-family: myfont;
+    line-height: 28px;
+    color: #1d1d1d;
+}
+
+.distribution .content ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    padding-left: 25px;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 7px;
+    position: relative;
+    font-family: myfont;
+}
+
+.distribution .content ul li:after {
+    content: "";
+    position: absolute;
+    background: #22bed9;
+    width: 2%;
+    height: 9px;
+    top: 15%;
+    left: 4px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1600px) {
+    .roww h5 {
+        font-size: 45px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .roww h5 {
+        font-size: 42px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 24px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+}
+
+@media (max-width: 1360px) {
+    .roww h5 {
+        font-size: 42px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 24px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+}
+
+@media (max-width: 1375px) {}
+
+@media (max-width: 1336px) {}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 1152px) {
+    .roww h5 {
+        font-size: 36px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 24px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+}
+
+@media (max-width: 1024px) {
+    .distribution .content:after {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .roww h5 {
+        font-size: 30px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 17px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+}
+
+@media (max-width: 600px) {
+    .distribution h4:after {
+        position: absolute;
+        content: "";
+        width: 102px;
+        height: 8px;
+        background: url(../../images/wpl-images/partner-line.html) no-repeat;
+        left: 3px;
+        top: 50px;
+    }
+    .distribution img {
+        display: none;
+    }
+    .distribution .content:after {
+        display: none;
+    }
+    .roww h5 {
+        font-size: 15px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 11px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+    .roww p {
+        display: none;
+    }
+    .content-last p {
+        font-size: 16px;
+        font-family: myfont;
+        line-height: 20px;
+        color: #1d1d1d;
+        text-align: justify;
+        word-spacing: -1px;
+    }
+    .content-last {
+        padding: 0px 0;
+        text-align: center;
+    }
+    .content-last h4 {
+        color: #1d1d1d;
+        position: relative;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: myfont;
+    }
+    .first_fold {
+        background: none;
+        margin-bottom: 0;
+    }
+    .distribution p {
+        line-height: 18px;
+        font-size: 14px;
+        margin-bottom: 12px;
+        color: #fff;
+        font-family: myfont;
+    }
+    .distribution .content ul li:after {
+        content: "";
+        position: absolute;
+        background: #22bed9;
+        width: 4%;
+        height: 11px;
+        top: 10%;
+        left: 4px;
+        border-radius: 50%;
+    }
+}

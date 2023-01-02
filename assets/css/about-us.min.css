@@ -1,0 +1,1152 @@
+.about-fourth {
+    position: relative;
+    z-index: 99;
+}
+
+.about-fourth .content1 {
+    padding: 20px 50px;
+    background: url(../../images/wpl-images/home/second-content-bg.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 11;
+    position: relative;
+}
+
+.about-fourth .content1::after {
+    background: url(../../images/wpl-images/about/bg-line.png) no-repeat;
+    background-size: contain;
+    width: 40%;
+    height: 440px;
+    top: 10%;
+    right: -12%;
+    content: "";
+    position: absolute;
+}
+
+.welcome_section .content h4:after {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    width: 7%;
+    height: 6px;
+    left: 9px;
+    background: #22bed9;
+    transform: translate(-5px, 5px);
+}
+
+.about-fourth .frst p {
+    width: 100%;
+    font-family: myfont;
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.about-fourth .frst h6 {
+    padding-top: 5px;
+    font-size: 40px;
+    color: #22bed9;
+    font-family: myfont;
+    position: relative;
+    margin: 0 0 15px;
+}
+
+.about-fourth .frst h6 span {
+    color: #fff;
+}
+
+.about-fourth .frst h6:after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    background: #22bed9;
+    width: 20%;
+    height: 5px;
+}
+
+.about-fourth .content1 ul li {
+    color: #fff;
+    font-family: myfont;
+    list-style: in;
+    padding: 0 0 0 40px;
+    line-height: 19px;
+    margin: 0 0 15px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.about-fourth .content1 ul li:after {
+    content: "";
+    background: #22bed9;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    font-size: 70px;
+    border-radius: 50%;
+}
+
+.roww {
+    position: absolute;
+    top: 20%;
+    width: 65%;
+}
+
+.about-first .content {
+    position: relative;
+    transition: 0.5s;
+}
+
+.about-first .content .mask1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.about-first .content:hover .mask1 {
+    height: 95%;
+    visibility: visible;
+    opacity: 200;
+    border-radius: 5px;
+}
+
+.solution {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.about-first .content .mask1 h4 {
+    text-align: center;
+    padding: 10px 0px 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    background: #22bed9;
+    margin: 45px 0 15px;
+}
+
+.about-first .content .mask1 p {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0 15px;
+    color: #282828;
+    font-weight: 800;
+}
+
+.about-first .mask2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: url(../../images/wpl-images/home/fourth-content-bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0 40px;
+    bottom: -15px;
+}
+
+.about-first .mask2 h4 {
+    font-size: 15px;
+    color: white;
+    padding-left: 45px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.about-first .mask2 p {
+    margin: 0;
+    padding-left: 45px;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 5px;
+    position: relative;
+    font-family: myfont;
+}
+
+.vision .content .mask2 {
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 0 15px;
+}
+
+.vision .content .mask2 h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.vision .content .mask2 p {
+    font-size: 14px;
+}
+
+.vision .content .mask1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.vision .content:hover .mask1 {
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.vision .content:hover .mask2 {
+    opacity: 0;
+}
+
+.vision .content .mask1 h4 {
+    text-align: center;
+    padding: 10px 0px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background: #f68237;
+    margin: 45px 0 15px;
+}
+
+.vision .content .mask1 p {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0 15px;
+    color: #282828;
+    font-weight: 700;
+}
+
+.solution .first-row {
+    padding: 0;
+    text-align: left;
+}
+
+.solution .first-row h4 {
+    margin: 0;
+    color: #282828;
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.solution .first-row h4 {
+    margin: 0;
+    color: #282828;
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.solution .first-row h6 {
+    margin: 0;
+    font-size: 44px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+
+.solution .first-row h6:after {
+    content: "";
+    background: url(../../images/wpl-images/solution/line.html) no-repeat;
+    background-size: contain;
+    width: 86px;
+    height: 12px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.solution p {
+    font-size: 16px;
+    text-align: JUSTIFY;
+    font-family: myfont;
+    line-height: 24px;
+    padding: 15px 15px 0 0;
+    margin: 0;
+}
+
+.solution .content h4 {
+    font-size: 38px;
+    color: #fff;
+    font-family: myfont3;
+    margin: 0 0 0 0;
+}
+
+.solution h4 span {
+    color: #22bed9;
+}
+
+.solution .content h1 {
+    font-size: 38px;
+    color: #fff;
+    font-family: myfont3;
+    margin: 0 0 0 0;
+    font-weight: 600;
+    position: relative;
+    text-align: left;
+}
+
+.solution h1 span {
+    color: #22bed9;
+}
+
+.welcome_section .content h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    width: 7%;
+    height: 6px;
+    left: 9px;
+    background: #22bed9;
+    transform: translate(-5px, 5px);
+}
+
+.solution .col-md-8:after {
+    display: none;
+}
+
+.solution .content {
+    height: 316px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.solution {
+    top: 56%;
+}
+
+.welcome_section .col-md-9 {
+    border: 2px solid #f6863e;
+    border-radius: 9px;
+    width: 820px;
+    margin-left: 17px;
+    text-align: center;
+    margin-top: 7px;
+    padding-top: 6px;
+}
+
+.about-first .mask2 h4 {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    font-weight: 600;
+}
+
+.about-first .mask2 p {
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 0;
+    position: relative;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+.about-first img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.first-of-fourth {
+    padding: 20px;
+}
+
+.about-first .content {
+    padding-bottom: 20px;
+}
+
+.about-second .first p {
+    line-height: 18px;
+    padding-top: 5px;
+    font-weight: 100;
+}
+
+.about-second .first h5 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about-second .first .col-md-6 {
+    padding: 0px 25px;
+    background: #f68237;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0px 0px 11px;
+    width: 46%;
+    min-height: 170px;
+}
+
+.about-second .first img {
+    width: 50px;
+    padding-top: 7px;
+}
+
+.about-second .img21 {
+    width: 84px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.third-about {
+    background: url(../../images/wpl-images/about/third-bg-ab.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding: 80px;
+    margin: 0 0 -1px 0;
+}
+
+.third-about .content h4 {
+    color: #fff;
+    font-size: 45px;
+    font-family: myfont2;
+}
+
+.third-about .content h4 span {
+    color: #22bed9;
+    position: relative;
+}
+
+.third-about .content h4 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #22bed9;
+    width: 100%;
+    height: 5px;
+}
+
+.third-about .content p {
+    color: #fff;
+    font-family: myfont;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0 0 30px;
+    font-weight: 100;
+}
+
+.third-about .content ul li {
+    color: #fff;
+    font-family: myfont;
+    padding: 0 0 0 40px;
+    line-height: 20px;
+    margin: 0 0 15px;
+    font-size: 14px;
+    position: relative;
+    font-weight: 100;
+}
+
+.third-about .content ul li:after {
+    content: "";
+    background: #22bed9;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    font-size: 70px;
+    border-radius: 50%;
+}
+
+.about-second .clr-chng {
+    background: #282828 !important;
+}
+
+.vision {
+    padding: 50px 0;
+    margin: 20px 0 0 0;
+}
+
+.vision .container {
+    padding: 30px 0;
+    border-bottom: 2px solid #f68338;
+    border-top: 2px solid #f68338;
+}
+
+.vision .content-main h4 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.vision .content-main h5 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #f68237;
+    position: relative;
+}
+
+.vision .content-main p {
+    margin: 0 0 15px;
+    line-height: 24px;
+    color: #fff;
+    padding: 0 50px 0 0;
+}
+
+.vision .content-main ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    line-height: 4;
+    padding: 0 25px;
+    position: relative;
+}
+
+.vision .btm {
+    padding-top: 20px;
+}
+
+.about-second .content ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    line-height: 3;
+    padding-left: 34px;
+    position: relative;
+}
+
+.about-second .content h4 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #282828;
+}
+
+.about-second .content h5 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+    color: #f68237;
+    position: relative;
+}
+
+.about-second .content {
+    padding: 22px 0;
+    text-align: center;
+}
+
+.about-first {
+    padding-top: 3px;
+    padding-bottom: 50px;
+}
+
+.content-main ul li:after {
+    content: "";
+    background: url(../../images/wpl-images/about/li-line-about-2.html) no-repeat;
+    background-size: contain;
+    width: 13px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.vision .content-main h5:after {
+    position: absolute;
+    content: "";
+    width: 102px;
+    height: 8px;
+    background: url(../../images/wpl-images/about/vision-line.html) no-repeat;
+    left: 85px;
+    top: 25px;
+    background-size: contain;
+}
+
+.about-second ul li:after {
+    content: "";
+    background: url(../../images/wpl-images/about/li-line-about-2.html) no-repeat;
+    background-size: contain;
+    width: 13px;
+    height: 15px;
+    position: absolute;
+    top: 16px;
+    left: 11px;
+}
+
+.about-second .content h5:after {
+    position: absolute;
+    content: "";
+    width: 102px;
+    height: 8px;
+    background: none;
+    left: 85px;
+    top: 25px;
+    background-size: contain;
+}
+
+.about-fourth .content {
+    padding-bottom: 20px;
+    transform: translateY(10px);
+}
+
+.about-fourth ul li::marker {
+    display: none;
+    font-size: 0;
+}
+
+@media(max-width:1600px) {
+    .about-first {
+        padding-top: 40px;
+    }
+    .third-about {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .about-first {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .roww h5 {
+        font-size: 55px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 46px;
+        margin: 0 0 30px;
+    }
+    .roww p {
+        font-size: 18px;
+        font-family: myfont;
+        color: #ffffffd1;
+    }
+    .third-about {
+        background: url(../../images/wpl-images/about/third-bg-ab.jpg) no-repeat;
+        background-size: 100% 100%;
+        padding: 30px;
+        margin: 0 0 -1px 0;
+    }
+}
+
+@media (max-width: 1360px) {
+    .third-about {
+        padding: 30px;
+        margin: 0 0 -1px 0;
+    }
+    .roww h5 {
+        font-size: 50px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 49px;
+        margin: 0 0 30px;
+    }
+    .about-first {
+        padding-top: 36px;
+        padding-bottom: 50px;
+    }
+    .about-first {
+        padding-top: 36px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1375px) {
+    .roww h5 {
+        font-size: 52px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 46px;
+        margin: 0 0 30px;
+    }
+}
+
+@media (max-width: 1336px) {}
+
+@media (max-width: 1280px) {
+    .roww h5 {
+        font-size: 48px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 40px;
+        margin: 0 0 30px;
+    }
+    .roww p {
+        font-size: 18px;
+        font-family: myfont;
+        color: #ffffffd1;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .third-about {
+        padding: 30px;
+        margin: 0 0 -1px 0;
+        background-position: bottom;
+    }
+    .about-first .content .mask1 p {
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+        padding: 0 15px;
+        color: #282828;
+        font-weight: 700;
+    }
+    .about-first .mask2 p {
+        margin: 0;
+        color: #fff;
+        font-size: 13px;
+        padding-bottom: 0;
+        position: relative;
+        line-height: 18px;
+    }
+    .solution p {
+        font-size: 14px;
+        text-align: left;
+        padding-top: 15px;
+        font-family: myfont;
+        line-height: 20px;
+    }
+    .homePageThree .header-section .navbar .navbar-collapse .navbar-nav li a,
+    .homePageThree .header-section .navbar .navbar-collapse .navbar-nav li .search-view,
+    .homePageThree .header-section .navbar .navbar-collapse .navbar-nav li .cart-icon {
+        color: #282828;
+        font-weight: 500;
+        font-family: myfont2;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .roww h5 {
+        font-size: 43px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 34px;
+        margin: 0 0 30px;
+    }
+    .roww p {
+        font-size: 16px;
+        font-family: myfont;
+        color: #ffffffd1;
+        line-height: 20px;
+    }
+    .solution .content {
+        height: 280px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+    .about-first .mask2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: url(../../images/wpl-images/home/fourth-content-bg.png) no-repeat;
+        background-size: 100% 100%;
+        padding: 10px;
+        transition: 0.5s;
+        overflow: hidden;
+        z-index: 1;
+        margin: 0 25px;
+        bottom: -22px;
+    }
+    .about-fourth .content1 ul li {
+        color: #fff;
+        font-family: myfont;
+        list-style: in;
+        padding: 0 0 0 40px;
+        line-height: 16px;
+        margin: 0 0 15px;
+        position: relative;
+        font-size: 13px;
+    }
+    .about-fourth .frst p {
+        width: 100%;
+        font-family: myfont;
+        line-height: 18px;
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+@media (width: 1024px) {
+    .roww h5 {
+        font-size: 40px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 36px;
+        margin: 0 0 20px;
+    }
+    .about-fourth .frst p {
+        width: 100%;
+        font-family: myfont;
+        line-height: 16px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .about-fourth .content1 ul li {
+        color: #fff;
+        font-family: myfont;
+        list-style: none;
+        padding: 0 0 0 40px;
+        line-height: 16px;
+        margin: 0 0 15px;
+        position: relative;
+        font-size: 13px;
+    }
+    .roww p {
+        font-size: 14px;
+        font-family: myfont;
+        color: #ffffffd1;
+        line-height: 16px;
+    }
+    .third-about {
+        background: url(../../images/wpl-images/about/third-bg-ab.html) no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 0;
+        margin: 0 0 -1px 0;
+    }
+    .welcome_section .col-md-9 {
+        width: 674px;
+    }
+    .about-second .first .col-md-6 {
+        min-height: 210px;
+    }
+    .vision .content-main ul li {
+        line-height: 2;
+    }
+    .content-main ul li:after {
+        top: 12px;
+    }
+    .about-first {
+        padding-top: 70px;
+    }
+    .about-second {
+        margin: 100px 0 -40px 0px;
+        padding: 0;
+    }
+    .solution .content {
+        height: 279px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .sixth-ford .content {
+        margin: 10px 0;
+        padding: 0;
+        border-radius: 6px;
+    }
+    .solution .content h1 {
+        color: #1f1f1f;
+    }
+    .roww h5 {
+        font-size: 20px;
+        line-height: 17px;
+        margin: 0 0 10px;
+    }
+    .roww h4 {
+        font-size: 23px;
+    }
+    .roww p {
+        display: none;
+    }
+    .roww {
+        padding: 0;
+        margin: 0;
+        top: 21%;
+    }
+    .solution .first-row {
+        padding: 0;
+        background: #f6823700;
+        text-align: left;
+        width: 100%;
+    }
+    .about-fourth .content1 {
+        padding: 20px 30px;
+    }
+    .solution .content {
+        padding: 10px;
+        display: block;
+        height: auto;
+    }
+    .about-fourth .content1::after,
+    .about-fourth:after {
+        display: none;
+    }
+    .solution .row {
+        margin: 0;
+    }
+    .solution .content h4 {
+        font-size: 30px;
+        color: #1d1d1d;
+        font-family: myfont3;
+        margin: 0 0 0 10px;
+    }
+    .about-first {
+        padding-top: 3px;
+        padding-bottom: 20px;
+    }
+    .third-about {
+        background: url(../../images/wpl-images/about/third-bg-ab.jpg) no-repeat;
+        background-size: cover;
+        padding: 23px;
+        margin: 0 0 -1px 0;
+        background-position: bottom;
+    }
+    .solution {
+        position: unset;
+    }
+    .about-first .content {
+        padding-bottom: 20px;
+        margin: 10px 0 40px;
+    }
+    .welcome_section .col-md-9 {
+        border: 2px solid #f6863e;
+        border-radius: 0px;
+        padding: 10px;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 0;
+        color: #282828;
+    }
+    .solution p {
+        font-size: 14px;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 10px;
+        color: #282828;
+        line-height: 16px;
+    }
+    .about-second .img21 {
+        display: none;
+    }
+    .about-second .first .col-md-6 {
+        padding: 2px 25px;
+        background: #f68237;
+        border-radius: 20px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        width: 94%;
+        min-height: auto;
+        margin: 0 0px 10px 12px;
+    }
+    .about-second .content ul li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 15px;
+        line-height: 1;
+        padding-left: 34px;
+        position: relative;
+        padding-bottom: 12px;
+    }
+    .about-second ul li:after {
+        top: 2px;
+    }
+    .vision .btm {
+        padding-top: 0px;
+    }
+    .vision .content-main ul li {
+        padding-bottom: 14px;
+        line-height: 22px;
+    }
+    .content-main ul li:after {
+        content: "";
+        background: url(../../images/wpl-images/about/li-line-about-2.html) no-repeat;
+        background-size: contain;
+        width: 13px;
+        height: 15px;
+        position: absolute;
+        top: 6px;
+        left: 0;
+    }
+    .vision .row {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .roww {
+        top: 20%;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .solution .content {
+        padding: 10px;
+        display: block;
+        height: auto;
+    }
+    .solution .content h4 {
+        font-size: 38px;
+        color: #fff;
+        font-family: myfont3;
+        margin: 0 0 0 0;
+        text-align: left;
+    }
+    .about-first .content .mask1 p {
+        font-size: 10px;
+        line-height: 13px;
+        text-align: center;
+        padding: 0 15px;
+        color: #282828;
+        font-weight: 700;
+    }
+    .first-row img {
+        display: block;
+    }
+    .about-first .content .mask1 h4 {
+        text-align: center;
+        padding: 6px 0px 6px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        background: #22bed9;
+        margin: 12px 0 9px;
+    }
+    .roww p {
+        font-size: 20px;
+        line-height: 15px;
+        font-weight: 600;
+        padding-right: 30px;
+    }
+    .about-first .mask2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: url(../../images/wpl-images/home/fourth-content-bg.png) no-repeat;
+        background-size: 100% 100%;
+        padding: 10px;
+        transition: 0.5s;
+        overflow: hidden;
+        z-index: 1;
+        margin: 0 25px;
+        bottom: -20px;
+    }
+    .about-first .mask2 h4 {
+        font-size: 15px;
+        color: white;
+        padding-left: 18px;
+        margin: 0;
+        font-weight: 500;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 70px 0 0;
+    }
+    .third-about {
+        background: url(../../images/wpl-images/about/third-bg-ab.jpg) no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0 0 -1px 0;
+        background-position: right;
+    }
+    .homePageThree .header-section .top-bar {
+        background: #202020;
+        padding: 3px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 11;
+        padding: 20px 0px;
+    }
+    .menu-toggle {
+        position: fixed;
+        top: 2px;
+        right: 23px;
+        transition: 0.1s;
+        z-index: 9999;
+        border-radius: 10px;
+        width: 8%;
+        padding: 10px 3px;
+        height: auto;
+    }
+    .third-about .content {
+        padding: 20px 98px;
+    }
+    .roww h5 {
+        font-size: 40px;
+        line-height: 34px;
+    }
+    .roww h5 {
+        font-size: 40px;
+    }
+    .about-first .mask2 p {
+        margin: 0;
+        padding-left: 18px;
+        color: #fff;
+        font-size: 9px;
+        padding-bottom: 0;
+        position: relative;
+        line-height: 12px;
+    }
+    .about-second .first .col-md-6 {
+        margin: 0 0px 10px 27px;
+    }
+    .solution .first-row {
+        padding: 0;
+        background: #f6823700;
+        text-align: left;
+        width: 50%;
+    }
+    .welcome_section .col-md-8 {
+        border: 2px solid #22bed9;
+        border-radius: 0px;
+        width: 50%;
+        padding-left: 0px;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 0px;
+        color: #282828;
+        padding: 0;
+    }
+    .solution p {
+        font-size: 13px;
+        text-align: left;
+        padding-top: 14px;
+        padding-left: 10px;
+        line-height: 17px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .first-row img {
+        display: none;
+    }
+}

@@ -1,0 +1,1162 @@
+.about-fourth {
+    position: relative;
+    z-index: 99;
+}
+
+.about-fourth .content1 {
+    padding: 20px 50px;
+    background: url(../../images/wpl-images/home/second-content-bg.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 11;
+    position: relative;
+}
+
+.about-fourth .content1::after {
+    background: url(../../images/wpl-images/about/bg-line.png) no-repeat;
+    background-size: contain;
+    width: 40%;
+    height: 440px;
+    top: 10%;
+    right: -12%;
+    content: "";
+    position: absolute;
+}
+
+.about-fourth .frst p {
+    width: 100%;
+    font-family: myfont;
+    line-height: 20px;
+    color: #fff;
+}
+
+.about-fourth .frst h6 {
+    padding-top: 5px;
+    font-size: 40px;
+    color: #22bed9;
+    font-family: myfont;
+    position: relative;
+    margin: 0 0 15px;
+}
+
+.about-fourth .frst h6 span {
+    color: #fff;
+}
+
+.about-fourth .frst h6:after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    background: #22bed9;
+    width: 20%;
+    height: 5px;
+}
+
+.about-fourth .content1 ul li {
+    color: #fff;
+    font-family: myfont;
+    list-style: in;
+    padding: 0 0 0 40px;
+    line-height: 19px;
+    margin: 0 0 15px;
+    position: relative;
+}
+
+.about-fourth .content1 ul li:after {
+    content: "";
+    background: #22bed9;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    font-size: 70px;
+    border-radius: 50%;
+}
+
+.roww {
+    top: 30%;
+}
+
+.welcome-sec {
+    padding: 0;
+    background: url(../../images/wpl-images/home/top-after.png) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 65%;
+}
+
+.sixth-ford .first_row .mask1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.sixth-ford .first_row .mask2 {
+    position: unset;
+    background: url(../../images/wpl-images/home/fourth-content-bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 14px 14px 14px 40px;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.sixth-ford .content:hover .mask1 {
+    height: 203px;
+    visibility: visible;
+    opacity: 1;
+    border-radius: 0;
+}
+
+.sixth-ford .first_row .mask2 h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.sixth-ford .first_row .mask2 p {
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+}
+
+.sixth-ford .content .mask1 h4 {
+    text-align: center;
+    padding: 10px 0px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: #22bed9;
+    margin: 35px 0 10px;
+}
+
+.author .content:hover .mask1 {
+    height: 288px;
+    visibility: visible;
+    opacity: 1;
+    border-radius: 0;
+}
+
+.sixth-ford .content .mask1 p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding: 0 15px;
+    color: #282828;
+    font-weight: 700;
+}
+
+.welcome_section .first-row {
+    padding: 0;
+    background: #f68237;
+}
+
+.first-row h6:after {
+    content: "";
+    background: url(../../images/wpl-images/resource/res-line.html) no-repeat;
+    background-size: contain;
+    width: 139px;
+    height: 9px;
+    position: absolute;
+    top: 48px;
+    left: 4px;
+}
+
+.first-row h4 {
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+    font-size: 36px;
+    margin: 0;
+}
+
+.first-row h6 {
+    margin: 0;
+    font-size: 40px;
+    color: #282828;
+    font-weight: 800;
+    position: relative;
+    text-align: left;
+}
+
+.welcome_section .content {
+    text-align: left;
+    min-height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome_section .content h4 {
+    font-size: 36px;
+    font-family: myfont3;
+}
+
+.welcome_section .scad {
+    padding: 0 50px;
+}
+
+.welcome_section .content h4 span {
+    color: #22bed9;
+}
+
+.confrence .content .mask1 h4 {
+    text-align: center;
+    padding: 10px 0px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background: #22bed9;
+    margin: 35px 0 10px;
+}
+
+.confrence .content .mask1 p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding: 0 15px;
+    color: #282828;
+    font-weight: 700;
+}
+
+.welcome_section .content p {
+    color: #fff;
+    font-family: myfont;
+    line-height: 21px;
+    padding: 18px 0 0;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 100;
+    word-spacing: -1px;
+}
+
+.welcome_section .content ul li {
+    padding: 0 20px 0 20px;
+    font-family: myfont;
+    line-height: 19px;
+    margin: 0 0 17px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.welcome_section .content ul li:after {
+    content: "";
+    background: #22bed9;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 18%;
+    left: 1%;
+    font-size: 70px;
+    border-radius: 50%;
+}
+
+.sec-rec {
+    padding: 80px 0;
+}
+
+.sixth-ford .con1 {
+    border-bottom: none;
+}
+
+.sec-rec .content-main {
+    text-align: center;
+    color: #fff;
+}
+
+.sec-rec .content-main h5 {
+    margin: 0 0 35px;
+    font-size: 34px;
+    font-weight: 100;
+    color: #22bed9;
+    text-align: center;
+    position: relative;
+    font-family: myfont;
+}
+
+.sec-rec .content-main h5:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    background: #22bed9;
+    width: 20%;
+}
+
+.sec-rec .content-main h5 span {
+    color: #fff;
+    font-weight: 800;
+}
+
+.welcome_section .content h4:after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    width: 22%;
+    height: 9px;
+    left: 3%;
+    background: #22bed9;
+    transform: translate(-5px, 5px);
+}
+
+.sec-rec .content-main .h4 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.sec-rec .content-main p {
+    margin: 0;
+    line-height: 25px;
+    padding: 0 80px;
+    font-family: myfont;
+    font-size: 16px;
+}
+
+.sec-rec .sub-col {
+    padding-top: 35px;
+}
+
+.sec-rec .sub-col .first_row {
+    padding: 0 158px;
+}
+
+.confrence .sub-col .first_row {
+    padding: 0 130px;
+}
+
+.confrence .sub h4 {
+    padding: 0;
+    margin: 0;
+    line-height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.confrence .content-main p {
+    margin: 0;
+    line-height: 20px;
+    padding: 0 0;
+    font-family: myfont;
+    font-size: 16px;
+}
+
+.confrence .content-main h3 {
+    font-size: 45px;
+    color: #282828;
+    font-weight: 600;
+}
+
+.confrence .content-main h4 {
+    margin: 0 0 30px;
+    font-size: 37px;
+    color: #1d1d1d;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 33px;
+    position: relative;
+    font-family: myfont;
+}
+
+.fourth-ford .mask2 p {
+    margin: 0;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    font-family: myfont;
+    line-height: 15px;
+}
+
+.confrence .content-main h4 span {
+    font-weight: 800;
+}
+
+.confrence .content:hover .mask1 {
+    height: 219px;
+    visibility: visible;
+    opacity: 1;
+    border-radius: 0;
+}
+
+.confrence {
+    padding: 80px 0;
+    color: #282828;
+}
+
+.content-main {
+    text-align: center;
+}
+
+.confrence .sub-col {
+    padding-top: 35px;
+}
+
+.org .h4 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #282828;
+    margin-top: 0;
+}
+
+.org h5 {
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+}
+
+.org h5:after {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 10px;
+    background: url(../../images/wpl-images/resource/org-line.html) no-repeat;
+    top: 20px;
+    left: 75px;
+}
+
+.org p {
+    padding-right: 50px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.org {
+    padding: 50px 0;
+}
+
+.org .btm {
+    padding-bottom: 30px;
+}
+
+.org .container {
+    border-top: 2px solid #282828;
+    border-bottom: 2px solid #282828;
+    padding: 30px 0;
+}
+
+.author .last_row {
+    background: none;
+    height: 100%;
+}
+
+.author .sub-content {
+    text-align: left;
+    border-radius: 14px;
+    background: #1f1e1e;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    z-index: 99;
+    height: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.author .sub-content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #22bed926;
+    width: 38%;
+    height: 100%;
+    overflow: hidden;
+    transform: rotate(40deg) translate(-260px, -20px);
+    z-index: -1;
+    transition: 0.5s;
+    animation: afas 10s infinite;
+    border-radius: 50%;
+}
+
+.welcome_section .content h4 {
+    font-size: 36px;
+    font-family: myfont3;
+    margin: 0;
+}
+
+@keyframes afas {
+    0% {
+        transform: rotate(360deg) translate(-150px, -20px);
+    }
+    50% {
+        transform: rotate(40deg) translate(380px, -270px);
+    }
+    100% {
+        transform: rotate(-360deg) translate(-150px, -20px);
+    }
+}
+
+.author .sub-content div {
+    border: 1px solid #22bed9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.author .first_row .mask2 {
+    position: absolute;
+    background: url(../../images/wpl-images/home/fourth-content-bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 14px 14px 14px 40px;
+    background-size: 100% 100%;
+    z-index: 1;
+    margin: 0 49px;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
+
+.author .sub-content h6 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+    font-family: myfont;
+    position: relative;
+}
+
+.author .sub-content h6:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 12%;
+    height: 7px;
+    left: 0%;
+    background: #22bed9;
+    transform: translate(-5px, 5px);
+}
+
+.author .content {
+    position: relative;
+    height: 288px;
+    border-radius: 0;
+}
+
+.author .sub-content h6 span {
+    font-weight: 100;
+    color: #22bed9;
+}
+
+.author .sub-content p {
+    color: #fff;
+    font-family: myfont;
+    font-size: 19px;
+}
+
+.author .first_row {
+    padding-bottom: 40px;
+}
+
+.author {
+    padding: 80px 0 0;
+}
+
+.about-fourth .content {
+    padding-bottom: 20px;
+    transform: translateY(10px);
+}
+
+.about-fourth ul li::marker {
+    display: none;
+    font-size: 0;
+}
+
+@media (max-width: 1600px) {
+    .author {
+        padding: 120px 0 0;
+    }
+    .sec-rec {
+        padding: 60px 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .roww {
+        top: 20%;
+    }
+    .roww h5 {
+        font-size: 55px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 45px;
+        margin: 0 0 30px;
+    }
+    .welcome-sec {
+        padding: 0;
+        background: url(../../images/wpl-images/home/top-after.png) no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        border-radius: 8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 57%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .roww {
+        top: 20%;
+    }
+    .roww h5 {
+        font-size: 55px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 45px;
+        margin: 0 0 30px;
+    }
+    .welcome-sec {
+        padding: 0;
+        background: url(../../images/wpl-images/home/top-after.png) no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        border-radius: 8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 56%;
+    }
+}
+
+@media screen and (max-width: 1375px) {}
+
+@media screen and (max-width: 1336px) {}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1152px) {
+    .welcome_section .content {
+        text-align: left;
+        min-height: 289px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .welcome_section .content h4 {
+        font-size: 28px;
+        font-family: myfont3;
+        margin: 0;
+    }
+    .welcome_section .content p {
+        color: #fff;
+        font-family: myfont;
+        line-height: 17px;
+        padding: 18px 0 0;
+        font-size: 18px;
+        text-align: justify;
+        word-spacing: -1px;
+        font-size: 14px;
+    }
+    .welcome_section .content ul li {
+        padding: 0 20px 0 21px;
+        font-family: myfont;
+        line-height: 19px;
+        margin: 0 0 10px;
+        position: relative;
+    }
+    .author .first_row .mask2 {
+        position: absolute;
+        background: url(../../images/wpl-images/home/fourth-content-bg.png) no-repeat;
+        background-size: 100% 100%;
+        padding: 14px 14px 14px 40px;
+        background-size: 100% 100%;
+        z-index: 1;
+        margin: 0 28px;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+    }
+    .about-fourth .frst h6 {
+        padding-top: 5px;
+        font-size: 30px;
+        color: #22bed9;
+        font-family: myfont;
+        position: relative;
+        margin: 0 0 15px;
+    }
+    .roww p {
+        font-size: 18px;
+        font-family: myfont;
+        color: #ffffffd1;
+        line-height: 20px;
+    }
+    .sec-rec .content-main h5 {
+        margin: 0 0 20px;
+        font-size: 30px;
+        font-weight: 100;
+        color: #22bed9;
+        text-align: left;
+        position: relative;
+        font-family: myfont;
+    }
+    .sec-rec .sub-col .first_row {
+        padding: 0 0;
+    }
+    .sixth-ford .content:hover .mask1 {
+        height: 234px;
+        visibility: visible;
+        opacity: 1;
+        border-radius: 0;
+    }
+    .roww h5 {
+        font-size: 45px;
+    }
+    .sixth-ford .first_row .mask2 h4 {
+        font-size: 13px;
+        margin: 0;
+        font-weight: 700;
+    }
+    .confrence .content-main h4 {
+        margin: 0 0 20px;
+        font-size: 31px;
+        color: #1d1d1d;
+        font-weight: 100;
+        text-align: left;
+        padding-left: 33px;
+        position: relative;
+        font-family: myfont;
+    }
+    .confrence .content-main p {
+        margin: 0;
+        line-height: 18px;
+        padding: 0px 0;
+        font-family: myfont;
+        font-size: 14px;
+    }
+    .confrence .sub-col .first_row {
+        padding: 0;
+    }
+    .about-fourth .frst p {
+        width: 100%;
+        font-family: myfont;
+        line-height: 17px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .about-fourth .content1 ul li {
+        color: #fff;
+        font-family: myfont;
+        list-style: in;
+        padding: 0 0 0 40px;
+        line-height: 14px;
+        margin: 0 0 15px;
+        position: relative;
+        font-size: 13px;
+    }
+    .about-fourth:after {
+        display: none;
+    }
+}
+
+@media screen and (width: 1024px) {
+    .sixth-ford .con1 {
+        padding: 0em;
+    }
+    .confrence .content-main h3 {
+        font-size: 34px;
+    }
+    .sixth-ford .last_row {
+        min-height: auto;
+    }
+    .sixth-ford .sub-content {
+        padding: 15px 20px;
+    }
+    .sixth-ford .sub-content h5::after {
+        width: 107px;
+        height: 10px;
+        top: 18px;
+        left: 59px;
+    }
+    .first-row h6 {
+        font-size: 35px;
+    }
+    .on-mobile-mrg {
+        margin: 82px 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .sixth-ford .content:hover .mask1 {
+        height: 290px;
+        visibility: visible;
+        opacity: 1;
+        border-radius: 0;
+    }
+    .author .sub-content p {
+        color: #fff;
+        font-family: myfont;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .sixth-ford .cont2 {
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .author .content {
+        margin: 0 0 40px;
+    }
+    .fourth-ford .mask2 h4 {
+        font-size: 18px;
+        color: white;
+        padding-left: 30px;
+        margin: 0;
+        font-weight: 500;
+    }
+    .sec-rec .content-main p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 20px;
+        font-family: myfont;
+        text-align: justify;
+        word-spacing: -1px;
+        padding: 0 15px;
+    }
+    .fourth-ford .mask2 p {
+        font-size: 12px;
+    }
+    .sec-rec {
+        padding: 25px 0;
+    }
+    .author .sub-content h6 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+        margin: 0 0 20px;
+        font-family: myfont;
+        position: relative;
+    }
+    .author .sub-content div {
+        border: 1px solid #22bed9;
+        width: 100%;
+        height: 100%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 7px;
+    }
+    .author .sub-content {
+        text-align: left;
+        border-radius: 14px;
+        background: #1f1e1e;
+        color: #fff;
+        padding: 15px;
+        position: relative;
+        z-index: 9;
+        height: 100%;
+        transition: 0.5s;
+        overflow: hidden;
+        margin: 30px 0 0;
+    }
+    .author {
+        padding: 0px 0 0;
+    }
+    .author .sub-content h6:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 18%;
+        height: 7px;
+        left: 0;
+        background: #22bed9;
+        transform: translate(0px, 0px);
+    }
+    .roww h5 {
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        font-family: myfont2;
+        line-height: 26px;
+        margin: 0 0 30px;
+    }
+    .roww p {
+        display: none;
+    }
+    .sixth-ford .content .mask1 h4 {
+        text-align: center;
+        padding: 10px 0px 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        background: #22bed9;
+        margin: 19px 0 10px;
+    }
+    .sixth-ford .content:hover .mask1 {
+        height: 240px;
+        visibility: visible;
+        opacity: 1;
+        border-radius: 0;
+    }
+    .sixth-ford .content .mask1 p {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        padding: 0 15px;
+        color: #282828;
+        font-weight: 700;
+    }
+    .roww {
+        top: 12%;
+    }
+    .welcome_section .content {
+        border-radius: 0px;
+        color: #282828;
+        padding: 0 20px;
+        min-height: 190px;
+    }
+    .welcome_section .content p {
+        color: #1d1d1d;
+        font-family: myfont;
+        line-height: 19px;
+        padding: 18px 0 0;
+        font-size: 18px;
+        text-align: justify;
+        word-spacing: -1px;
+        font-size: 16px;
+    }
+    .sec-rec .content-main h5 {
+        margin: 0 0 20px;
+        font-size: 40px;
+        font-weight: 100;
+        color: #22bed9;
+        text-align: left;
+        position: relative;
+        font-family: myfont;
+        text-align: center;
+        line-height: 38px;
+    }
+    .sec-rec .col-md-2 {
+        padding-left: 28px;
+    }
+    .welcome_section .col-xs-12 {
+        padding: 0;
+    }
+    .sec-rec .content-main p {
+        margin: 0;
+        line-height: 22px;
+        font-family: myfont;
+        text-align: justify;
+        word-spacing: -1px;
+        padding: 0 15px;
+    }
+    .sec-rec .sub-col .first_row {
+        padding: 0;
+    }
+    .sec-rec .content-main {
+        text-align: left;
+        color: #fff;
+    }
+    .confrence .content-main p {
+        margin: 0;
+        line-height: 20px;
+        padding: 0 0 0;
+    }
+    .sixth-ford .col-md-6,
+    .sixth-ford .col-md-4 {
+        padding: 0 15px;
+        margin: 10px 0px;
+    }
+    .confrence .sub-col .first_row {
+        padding: 0 15px;
+    }
+    .welcome-sec {
+        background: none;
+        position: unset;
+    }
+    .solution .row {
+        margin: 0;
+    }
+    .welcome_section .first-row {
+        padding: 0;
+    }
+    .about-fourth .content1::after {
+        display: none;
+    }
+    .org .row,
+    .sec-rec .row {
+        padding: 0;
+        margin: 0;
+    }
+    .content-main {
+        text-align: left;
+    }
+    .confrence .content-main h3 {
+        line-height: 1;
+    }
+    .org .btm {
+        margin-bottom: 20px;
+    }
+    .org .btm,
+    .org .tbm {
+        margin: 0 -30px;
+    }
+    .confrence .content-main h4 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    .confrence .content-main h4:after {
+        left: 74px;
+        width: 56%;
+    }
+    .sixth-ford .last_row {
+        padding: 0;
+        margin: 0;
+        height: 291px;
+    }
+    .confrence {
+        padding: 30px 0;
+        color: #282828;
+    }
+    .about-fourth .content1 {
+        padding: 20px 30px;
+        background: url(../../images/wpl-images/home/second-content-bg.png) no-repeat;
+        background-size: 100% 100%;
+        z-index: 11;
+        position: relative;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .author .content {
+        position: relative;
+        height: 185px;
+        border-radius: 0;
+    }
+    .first-row img {
+        display: block;
+    }
+    .welcome_section .content {
+        border-radius: 0px;
+        color: #282828;
+        padding: 0;
+        min-height: 190px;
+    }
+    .sixth-ford .last_row {
+        padding: 0;
+        margin: 0;
+        height: 185px;
+    }
+    .sixth-ford .first_row .mask2 h4 {
+        font-size: 12px;
+        margin: 0;
+        font-weight: 700;
+    }
+    .author .first_row .mask2 {
+        position: absolute;
+        background: url(../../images/wpl-images/home/fourth-content-bg.png) no-repeat;
+        background-size: 100% 100%;
+        padding: 14px 14px 14px 40px;
+        background-size: 100% 100%;
+        z-index: 1;
+        margin: 0 17px;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+    }
+    .sixth-ford .container {
+        border: none;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+    .author .sub-content p {
+        color: #fff;
+        font-family: myfont;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .author .sub-content h6 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        margin: 0 0 20px;
+        font-family: myfont;
+        position: relative;
+    }
+    .author .sub-content div {
+        border: 1px solid #22bed9;
+        width: 100%;
+        height: 100%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+        border-radius: 7px;
+    }
+    .author .first_row {
+        padding-bottom: 0;
+    }
+    .sixth-ford .first_row .mask2 p {
+        font-weight: 100;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        line-height: 18px;
+    }
+    .welcome_section .content ul li {
+        padding: 7px 0px 0 21px;
+        font-family: myfont;
+        line-height: 12px;
+        margin: 0 0 2px;
+        position: relative;
+        font-size: 13px;
+    }
+    .welcome-sec {
+        border: 2px solid #23bcd6;
+    }
+    .welcome_section .content h4 {
+        font-size: 23px;
+        font-family: myfont3;
+        margin: 0;
+        text-align: left;
+    }
+    .welcome_section .content p {
+        color: #1d1d1d;
+        font-family: myfont;
+        line-height: 14px;
+        padding: 16px 0 0;
+        font-size: 18px;
+        text-align: justify;
+        word-spacing: -1px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {
+    .org .h4 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .first-row img {
+        display: none;
+    }
+}
